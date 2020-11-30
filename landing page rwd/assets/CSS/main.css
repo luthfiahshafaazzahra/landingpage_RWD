@@ -1,0 +1,348 @@
+body {
+    background-color: #c8d9eb;
+}
+
+/* nav */
+
+.navbar {
+    position: relative;
+    z-index: 1;
+}
+
+.navbar-brand {
+    font-family: viga;
+    font-size: 32px;
+}
+
+
+
+/* jumbotron */
+.jumbotron {
+    background-image: url(https://www.teahub.io/photos/full/219-2193212_wallpaper-maldives-tropical-resort-evening-maldives-wallpaper-hd.jpg);
+    background-size: cover;
+    height: 540px;
+    text-align: center;
+    position: relative;
+
+}
+
+.jumbotron .cotainer {
+    z-index: 1;
+    position: relative;
+}
+
+
+.jumbotron .display-4 {
+    color: white;
+    margin-top: 100px;
+    font-weight: 200;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+    font-size: 35px;
+    margin-bottom: 30px;
+}
+
+.jumbotron .display-4 span {
+    font-weight: 500;
+}
+
+.btn {
+    padding: 2px 5px;
+    transition: 0.4s all;
+    border-radius: 190px;
+    cursor: pointer;
+}
+
+.btn.btn-outline {
+    border: 2px solid #112d4e;
+    background-color: #112d4e;
+}
+
+.btn.btn-outline:hover {
+    box-shadow: 5px 5px 12px #112d4e;
+}
+
+/* info dia */
+.info-panel {
+    box-shadow: o 3px 20px rgba(0, 0, 0, 0.5);
+    border-radius: 12px;
+    margin-top: -100px;
+    background-color: white;
+    padding: 30px;
+}
+
+.info-panel img {
+    width: 80px;
+    height: 80px;
+    margin-right: 20px;
+    margin-bottom: 20px;
+}
+
+.info-panel h4 {
+    font-size: 16px;
+    text-transform: uppercase;
+    font-weight: bold;
+    margin-top: 5px;
+}
+
+.info-panel p {
+    font-size: 14px;
+    color: black;
+    font-weight: 200;
+    margin-top: -5px;
+}
+
+
+
+
+/* workingspace */
+.judul {
+    margin-top: 50px;
+    text-align: -webkit-center;
+    display: block;
+}
+
+.workingspace {
+    margin-top: 120 px;
+    text-align: center;
+}
+
+.workingspace .hayo {
+    background-color: #f0a500;
+    text-align: center;
+}
+
+.workingspace .bungkus {
+    margin-top: 50px;
+    margin-left: 20px;
+    background-color: #00bcd4;
+    border-radius: 20px;
+    width: 330px;
+    height: 330px;
+    font-family: "QuickSand-Medium";
+
+}
+
+.workingspace .bungkus h3 {
+    font-size: 15px;
+    font-weight: 200;
+    margin-left: 60px;
+    margin-right: 90px;
+    margin-top: 50px;
+}
+
+.workingspace img {
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border-radius: 80%;
+    padding: 5px;
+    border: 2px solid #f0a500;
+    margin-top: 50px;
+}
+
+
+.workingspace h3 {
+    font-size: 52px;
+    font-weight: 200;
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #ff5200;
+}
+
+.workingspace h3 span {
+    font-weight: 500;
+    color: #120078;
+    font-weight: 200;
+}
+
+.workingspace p {
+    font-size: 18px;
+    margin: 25px 0;
+}
+
+/* paket holiday */
+.card {
+    margin-top: 50px;
+}
+
+.card img {
+    width: 360x;
+    height: 360px;
+    object-fit: cover;
+}
+
+.card .cuan {
+    font-size: 20px;
+    font-weight: bolder;
+
+}
+
+/* Cabang hati */
+.carousel-item {
+    object-fit: cover;
+    margin-top: 50px;
+}
+
+.carousel-caption .display-4 {
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+.carousel-caption p {
+    font-size: 15px;
+    font-weight: bolder;
+}
+
+/* Footer */
+footer {
+    padding: 21px 0;
+    background-color: #427ED0;
+    text-align: center;
+    font-size: 14px;
+}
+
+footer p {
+    font-size: 16px;
+    color: #fff;
+    text-align: center;
+    font-family: "Poppins-Medium";
+}
+
+/* form */
+.box {
+    margin: 1% 2% 4% 38%;
+    padding: 150px;
+    border: 2px solid wheat;
+    background-color: plum;
+    border-radius: 5px;
+    display: block;
+    text-align: center;
+}
+
+.form-group {
+    padding-top: 5px;
+}
+
+.halo {
+    color: red;
+}
+
+label,
+input {
+    padding: 10px 10px;
+}
+
+label {
+    font-size: 20px;
+    font-weight: 600;
+    color: #fff;
+}
+
+input {
+    font-size: 15px;
+    width: 5px;
+    padding: 5px 70px;
+    background-color: #e8e8e8;
+    border: none;
+}
+
+button {
+    margin-top: 12px;
+    width: 100px;
+    padding: 5px 12px;
+    font-size: 15px;
+    cursor: pointer;
+}
+
+footer p a {
+    text-decoration: none;
+}
+
+/* Dekstop version */
+@media (min-width: 992px) {
+
+    .navbar-brand,
+    .nav-link {
+        color: white !important;
+        text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.7);
+
+    }
+
+
+
+    nav-link {
+        text-transform: uppercase;
+        margin-right: 400px;
+    }
+
+    .nav-link:hover::after {
+        content: '';
+        display: block;
+        border-bottom: 3px solid #0b63dc;
+        width: 50%;
+        margin: auto;
+        padding-bottom: 5px;
+        margin-bottom: -8px;
+    }
+
+    .jumbotron {
+        margin-top: -75px;
+        height: 640;
+    }
+
+    .jumbotron .display-4 {
+        font-size: 62px;
+    }
+
+    .workingspace {
+        text-align: left;
+    }
+
+    .workingspace img {
+        margin-left: 65px;
+        margin-top: 50px;
+    }
+
+    .workingspace .bungkus {
+        margin-left: 150px;
+    }
+
+    .workingspace .bungkus h3 {
+        font-size: 15px;
+        font-weight: bolder;
+    }
+
+    .carousel-item {
+        height: 550px;
+    }
+
+    .carousel-caption .display-4 {
+        font-weight: bolder;
+        margin-top: -200px;
+        font-size: 35px;
+    }
+
+    .carousel-caption p {
+        font-size: 30px;
+        font-weight: bolder;
+
+    }
+    .form-group {
+        padding-top: 11px;
+    }
+    
+    .box {
+        margin: 1% 38%;
+        padding: 20px;
+    }
+
+    label,
+    input {
+        padding: 0 9px;
+    }
+    input {
+        font-size: 15px;
+        width: 100%;
+        padding: 5px 5px;
+    }
+}
